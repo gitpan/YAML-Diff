@@ -19,9 +19,10 @@ no_index:
     - xt
     - example
 requires:
+  Mo: '0'
   perl: v5.8.1
 resources:
   bugtracker: https://github.com/ingydotnet/yaml-diff-pm/issues
   homepage: https://github.com/ingydotnet/yaml-diff-pm
   repository: https://github.com/ingydotnet/yaml-diff-pm.git
-version: 0.0.1
+version: 0.0.2

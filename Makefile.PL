@@ -21,15 +21,19 @@ my %WriteMakefileArgs = (
   ],
   "LICENSE" => "perl",
   "NAME" => "YAML::Diff",
-  "PREREQ_PM" => {},
-  "VERSION" => "0.0.1",
+  "PREREQ_PM" => {
+    "Mo" => 0
+  },
+  "VERSION" => "0.0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }
 );
 
 
-my %FallbackPrereqs = ();
+my %FallbackPrereqs = (
+  "Mo" => 0
+);
 
 
 unless ( eval { ExtUtils::MakeMaker->VERSION(6.63_03) } ) {
